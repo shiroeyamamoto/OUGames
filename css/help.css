@@ -1,0 +1,14 @@
+.search > input{
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.search{
+    display: flex;
+}
+.search > :first-child{
+    font-size: 25px;
+    background-color: white;
+    padding: 2px;
+}

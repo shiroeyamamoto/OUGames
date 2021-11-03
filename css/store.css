@@ -1,0 +1,376 @@
+
+div.IntroGames{
+    display: flex;
+    width: 100%;
+}
+div.childFather{
+    width: 150%;
+    position: relative;
+}
+div.childFather > div > img{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+*{
+    box-sizing: border-box;
+}
+div.buy > a{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border-radius:5px;
+    bottom: 50px;
+    left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div.buy > a:hover{
+    color: rgb(145, 142, 142);
+}
+div.sale{
+    position: absolute;
+    color: rgb(216, 216, 216);
+    bottom: 85px;
+    left: 50px;
+    font-weight: 800;
+}
+div.addtowishlist{
+    position: absolute;
+    bottom: 50px;
+    font-size: 13px;
+    left:170px;
+    
+}
+div.addtowishlist > a > i{
+    color: rgb(216, 216, 216);
+    padding-right: 5px;
+    font-size: 13px;
+}
+div.addtowishlist > a{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    font-weight: 800;
+    display: block;
+    padding: 5px 25px;
+}
+div.addtowishlist > a:hover{
+    background-color: rgba(256, 256, 256, 0.39);
+    border-radius: 5px;
+}
+div.child{
+    display: flex;
+    width: 100%;
+    padding-top: 2px;
+}
+div.child > a > div.img{
+    width: 50%;
+}
+div.child > a > div.img > img{
+    width: 100%;
+    border-radius: 10px;
+}
+div.child > a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    font-size: 15px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+div.child > a > div.name{
+    position: relative;
+    top: 25px;
+    padding-left: 5px;
+}
+div.child > a:hover{
+    background-color: rgba(216, 216, 216, 0.281);
+    border-radius: 5px;
+}
+div.GameOnSale{
+    color: rgb(216, 216, 216);
+    padding-top: 25px;
+    font-size: 20px;
+}
+div.GameOnSale a{
+    color: white;
+    text-decoration: none;
+}
+div.GameOnSale div.items{
+    display: flex;
+}
+div.GameOnSale div.item{
+    width: 20%;
+    padding: 5px;
+    font-size: 15px;
+}
+div.GameOnSale div.img{position: relative;}
+div.GameOnSale img{
+    width: 100%;
+}
+div.GameOnSale div.saleItem{
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: rgb(0, 116, 228);
+    align-items: center;
+    font-size: 10px;
+}
+
+div.GameOnSale div.name{
+    font-size: 15px;
+    padding-top: 10px;
+}
+div.GameOnSale div.OnSale{
+    display: flex;
+    font-size: 13px;
+}
+.padding{
+    padding: 2px 5px;
+}
+.padding2{
+    padding-left: 0px !important;
+}
+div.GameOnSale div.old{
+    color: rgb(114, 114, 114);
+    font-family: sans-serif;
+}
+div.GameOnSale i{
+    font-size: 15px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    display: none;
+}
+div.GameOnSale a:hover i{
+    display: block;
+}
+div.GameOnSale .dev{
+    padding-bottom: 10px;
+    color: rgba(245, 245, 245, 0.6);
+}
+div.GameOnSale div.AddItem{
+    font-size: 10px;
+    position: absolute;
+    padding: 5px 5px;
+    color: rgb(245, 245, 245);
+    background-color: rgba(59, 59, 59, 0.836);
+    top: -20px;
+    right: -25px;
+    display: none;
+}
+div.GameOnSale i:hover + div.AddItem{
+    display: block;
+}
+div.GameOnSale i:hover{
+    color: rgba(245, 245, 245, 0.733);
+}
+div.GameOnSale div.name{
+    overflow:hidden;
+    white-space: nowrap;
+}
+div.FreeGames{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    padding: 25px 30px;
+}
+div.FreeGames > :first-child{
+    padding: 0px 15px;
+    padding-bottom: 15px;
+}
+div.FreeGames > div.items > div.item{
+    width: 25%;
+    padding: 5px;
+}
+div.FreeGames > div.items > div.item > a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+div.FreeGames > div.items{
+    display: flex;
+}
+div.FreeGames > div.items > div.item > a > div.img > img{
+    width: 100%;
+}
+div.FreeGames > div.items > div.item > a > div.img > div.Free{
+    text-align: center;
+    background-color: rgb(0, 120, 242);
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+div.FreeGames > div.items > div.item > a > div.img > div.COMINGSOON{
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+div.FreeGames > div.items > div.item > a > div.freenow{
+    color: rgba(245, 245, 245, 0.6);
+}
+div.FreeGames > div.items > div.item > a > :nth-child(2){
+    font-size: 15px;
+    padding-top: 15px;
+}
+section.colum > div.items > div.item{
+    padding: 15px;
+    position: relative;
+}
+section.colum > div.items{
+    padding: 10px;
+}
+section.colum > div.items > div.item > a > div.img{
+    width: 20%;
+}
+section.colum > div.items > div.item > a > div.img > img{
+    width: 100%;
+}
+section.colum > div.items > div.item > a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+section.colum div.name{
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+section.colum div.items:nth-child(1){
+    border-right: 1px solid grey;
+}
+section.colum div.items:nth-child(2){
+    border-right: 1px solid grey;
+}
+section.colum div.info{
+    display: flex;
+    padding: 5px;
+}
+section.colum{
+    display: flex;
+    padding: 50px 0px;
+}
+section.colum div.info > div.giamgia{
+    background-color: rgb(0, 120, 242);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+section.colum div.info > div{
+    font-size: 13px;
+    padding: 0px 5px;
+}
+section div.addtowishlistcolum > a > i{
+    font-size: 20px;
+    position: absolute;
+    top: 55px;
+    right: 30px;
+}
+section.colum a:hover{
+    background-color: rgba(256, 256, 256, 0.15);
+}
+section.colum a:hover + div.addtowishlistcolum{
+    display: block;
+}
+section.colum div.addtowishlistcolum{
+    display: none;
+}
+.flex{
+    display: flex;
+} 
+section.news .item{
+    width: 50%;
+    padding: 20px 15px;
+}
+section.news img{
+    width: 100%;
+    border-radius: 15px;
+}
+section.news .bone{
+    padding: 10px 25px;
+}
+section.news .name{
+    font-size: 18px;
+}
+section.news .info{
+    font-size: 14px;
+    color: rgba(245, 245, 245, 0.6);
+}
+section.news a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+section.news a:nth-child(3):hover{
+    text-decoration: underline;
+}
+section.news div.giamgia{
+    background-color: rgb(0, 120, 242);
+    border-radius: 5px;
+    color: white;
+}
+section.news div.info > div{
+    font-size: 16px;
+    padding: 0px 5px;
+    color: white;
+    padding-top: 5px;
+}
+section.news div.info >:nth-child(2){
+    color: rgba(245, 245, 245, 0.6)!important;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.GameOnSale div{
+    overflow: hidden;
+    white-space: nowrap;
+}
+section.Catalog{
+    padding: 25px 0px;
+}
+section.Catalog .flex{
+    padding: 25px 0px;
+}
+section.Catalog .img{
+    align-items: center;
+    width: 70%;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom right,rgb(0, 0, 0), rgb(0, 120, 242));
+}
+section.Catalog .info{
+    padding: 70px 0px;
+    position: relative;
+}
+section.Catalog img{
+    width: 100%;
+}
+section.Catalog .item{
+    padding: 25px 50px;
+    white-space: nowrap;
+}
+section.Catalog .info >:nth-child(2){
+    color: rgba(245, 245, 245, 0.6);
+    padding-bottom: 60px;
+}
+section.Catalog .Learn{
+    padding: 25px 25px;
+    color: rgb(18, 18, 18);
+    border-radius: 4px;
+    position: absolute;
+    left: 50px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 20px;
+    background-color: rgb(245, 245, 245);
+}
+section.Catalog .Learn:hover{
+    color: rgb(18, 18, 18, 0.6);
+}
+section.Catalog .imglink:hover{
+    background-image: linear-gradient(to bottom right,rgb(0, 0, 0,0.5), rgb(0, 120, 242,0.5));
+}
